@@ -1,18 +1,16 @@
 === WP2Static ===
 Contributors: leonstafford
 Tags: security, performance, static
-Requires at least: 4.0
-Tested up to: 5.2.4
-Requires PHP: 7.2
-Stable tag: 7.0
+Requires at least: 3.2
+Tested up to: 5.3
+Requires PHP: 7.0
+Stable tag: 6.6.7
 
 Security & Performance via static website publishing. One plugin to solve WordPress's biggest problems.
 
 == Description ==
 
-WP2Static detects and crawls all HTML, CSS, JS, images and other resources in the WordPress site it is installed in, generating a self-contained static website, with URLs and other post-processing filters applied.
-
-It allows you to deploy the generated static site to a staging or production environment.
+Security & Performance via static website publishing. One plugin to solve WordPress's biggest problems.
 
 Keep using WordPress for what it's best at - managing content, but remove the security and performance headaches by publishing the site as static HTML.
 
@@ -53,7 +51,7 @@ Not compatible with WooCommerce or membership sites, but solutions like [Snipcar
  - Operations people at large corporations don't often like dealing with WordPress, this allows them to close the security holes and have more control over the hosting
  - Budget conscious people like free hosting (who doesn't?!?)
  - Government agencies who have strict security requirements, but have users who prefer to use WordPress
- * Those who want to use it to archive an old WordPress website, keeping the content online, but not worrying about keeping WP up to date
+ * Thos who want to use it to archive an old WordPress website, keeping the content online, but not worrying about keeping WP up to date
 
 This plugin produces a static HTML version of your wordpress install, incredibly useful for anyone who would like the publishing power of wordpress but whose webhost doesn't allow dynamic PHP driven sites - such as GitHub Pages. You can run your development site on a different domain or offline, and the plugin will change all relevant URLs when you publish your site. It's a simple but powerful plugin, and after hitting the publish button, the plugin will output a ZIP file of your entire site, ready to upload straight to it's new home.
 
@@ -136,18 +134,15 @@ When you have an issue, send the contents of your "Export Log" on the plugin scr
 
 == Changelog ==
 
-= 7.0 =
+= 6.6.7 =
 
- * Enhancement: granular control over WP URL detection
- * Enhancement: improved UX when an error occurs
- * Enhancement: prevent vendor notices distorting WP2Static UI
- * Enhancement: warn when DOMDocument not available
- * Enhancement: warn when ZIP extension not available for Netlify deploy
- * Enhancement: set outdated PHP detection version to < 7.0
- * Enhancement: stop cluttering uploads dir with WP2Static working files
- * Change: removed progress indicators due to poor implementation
- * New feature: New hooks for writing your own Add-on to WP2Static
- * New feature (Premium): Add-on for 1-click deploys to Microsoft Azure
+ * Bump readme to show supported version of WordPress 5.3
+ * change header image in wp.org
+ * fix broken Slack link to Telegram 
+
+= 6.6.6 =
+
+ * Bump readme to show supported version of WordPress
 
 = 6.6.5 =
 
@@ -597,14 +592,6 @@ Altered main codebase to fix recursion bug and endless loop. Essential upgrade.
 Initial release to Wordpress community
 
 == Upgrade Notice ==
-
-= 6.6.6 =
-
- * Enhancement: improved UX when an error occurs
- * Enhancement: prevent vendor notices distorting WP2Static UI
- * Enhancement: warn when DOMDocument not available
- * Enhancement: warn when ZIP extension not available for Netlify deploy
- * Enhancement: set outdated PHP detection version to < 5.6
 
 = 6.6.5 =
 
