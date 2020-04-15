@@ -1,10 +1,14 @@
 === WP2Static ===
+Unofficial 6.6.8 modified version by gaspard_bourgeois
+See official 6.6.7 on [Wordpress WP2Static Plugin](https://wordpress.org/plugins/static-html-output-plugin/)
+See the latest development on the [Official Github](https://github.com/WP2Static/wp2static), a paid version by the way
+
 Contributors: leonstafford
 Tags: security, performance, static
 Requires at least: 3.2
 Tested up to: 5.3
 Requires PHP: 7.0
-Stable tag: 6.6.7
+Stable tag: 6.6.8
 
 Security & Performance via static website publishing. One plugin to solve WordPress's biggest problems.
 
@@ -134,11 +138,16 @@ When you have an issue, send the contents of your "Export Log" on the plugin scr
 
 == Changelog ==
 
+= 6.6.8 =
+
+ * Fix github-pages export
+ * Correct wordpress path for windows users
+
 = 6.6.7 =
 
  * Bump readme to show supported version of WordPress 5.3
  * change header image in wp.org
- * fix broken Slack link to Telegram 
+ * fix broken Slack link to Telegram
 
 = 6.6.6 =
 
@@ -563,7 +572,7 @@ Fixed bug introduced with previous version. Applied following modifications cont
 Added Features
 
 * zip is now written atomically (write tmp file first, then rename to zip) which now allows polling scripts to only deal with completed zip file.
-* username and blog id are now part of the file name. For auditing and handling 
+* username and blog id are now part of the file name. For auditing and handling
 multi site exports.
 
 Bug fixes
@@ -585,7 +594,7 @@ Added a timeout value to URL request which was breaking for slow sites
 
 = 1.0.3 =
 
-Altered main codebase to fix recursion bug and endless loop. Essential upgrade. 
+Altered main codebase to fix recursion bug and endless loop. Essential upgrade.
 
 = 1.0.2 =
 
@@ -736,7 +745,7 @@ Initial release to Wordpress community
 = 5.7 =
 
  * Bugfix: Allow for WPMU/network site activation
- * Bugfix: Include gallery files for NextGEN Gallery 
+ * Bugfix: Include gallery files for NextGEN Gallery
 
 = 5.6 =
 
@@ -763,7 +772,7 @@ Initial release to Wordpress community
 
  * Improvement: more deployment options included (Netlify, GitHub Pages)
  * Bugfix: certain cases where inline style images are written with incorrect filenames
- * Bugfix: fix for cron-scheduled exports failing 
+ * Bugfix: fix for cron-scheduled exports failing
  * Bugfix: offline copy not rewriting home URLs
 
 = 5.3 =
@@ -820,7 +829,7 @@ Major upgrade recommended for all users. Adds new functionality and fixes a majo
 Critical upgrade with bugfixes and improvements
 
  * Bugfix: fix certain CloudFront exceptions not being caught/logged
- * Bugfix: previous exports being included in deployments in some cases 
+ * Bugfix: previous exports being included in deployments in some cases
  * Bugfix: issue preventing Dropbox deployments from working
  * Bugfix: enable S3 deploys to all regions
  * Bugfix: allow crawling local/self-cert SSL sites
@@ -905,14 +914,14 @@ Important upgrade, bringing a killer new feature, nice improvements and importan
 
 All the important bits from the 2.3 release, plus:
 
- * Feature: Export to BunnyCDN - a very cheap and quick static site hosting option 
+ * Feature: Export to BunnyCDN - a very cheap and quick static site hosting option
  * Bugfix: Extracts relative URLs like fonts, background images, etc linked from your theme's CSS files
 
 = 2.3 =
 
-Important upgrade - critical bugfixes and new features. As we hit the 100,000 alltime downloads mark, there are big things in the pipeline coming in the major 3.0 release. Get the latest 2.3 version for a marked improvement to the plugin! 
+Important upgrade - critical bugfixes and new features. As we hit the 100,000 alltime downloads mark, there are big things in the pipeline coming in the major 3.0 release. Get the latest 2.3 version for a marked improvement to the plugin!
 
- * Feature: Scheduled exports via WP Crontrol 
+ * Feature: Scheduled exports via WP Crontrol
  * Bugfix: FTP export now works on shared/limited hosting
  * Bugfix: Extracts all URLs when crawling your website's HTML files
  * Bugfix: Subsequent exports correctly show realtime progress in log
@@ -941,7 +950,7 @@ Critical bug fixes and a shiny new feature!
  * Bugfix: Amazon S3 publishing fixed after bug introduced in 1.9
  * Feature: 1-click publishing to a GitHub Pages static site
 
-Thanks to a user donation for funding the development work to get GitHub Pages exporting added as a new feature. I was also able to merge some recently contributed code from @patrickdk77, fixing the recent issues with AWS S3 and CloudFront. Finally, I couldn't make a new release without fixing the Dropbox export functionality - unbeknowst to me, they had killed version 1 of their API in September, breaking the functionality in this plugin, along with many other apps. 
+Thanks to a user donation for funding the development work to get GitHub Pages exporting added as a new feature. I was also able to merge some recently contributed code from @patrickdk77, fixing the recent issues with AWS S3 and CloudFront. Finally, I couldn't make a new release without fixing the Dropbox export functionality - unbeknowst to me, they had killed version 1 of their API in September, breaking the functionality in this plugin, along with many other apps.
 
 Please contact me to report any bugs or request new features. Thanks again for your support of this plugin!
 
@@ -957,7 +966,7 @@ Though this is no longer an officially supported PHP version, many of this plugi
 
  * Bugfix: improved URL rewriting
 
-Plugin now ensures that formatted versions of your site's URL, ie //mydomain.com or http:\/\/mydomain.com\/ or the https/http equivalent are detected and rewritten to your target Base URL. The rewriting should now also work within CSS and JavaScript files. 
+Plugin now ensures that formatted versions of your site's URL, ie //mydomain.com or http:\/\/mydomain.com\/ or the https/http equivalent are detected and rewritten to your target Base URL. The rewriting should now also work within CSS and JavaScript files.
 
 = 1.7 =
 
@@ -996,7 +1005,7 @@ This update brings much desired multiple export targets. Please note, it will ne
 
 = 1.2.0 =
 
-Good to be back into developing the plugin again. This release brings some good functionality, though may be some bugs. 
+Good to be back into developing the plugin again. This release brings some good functionality, though may be some bugs.
 
  * 1-click generation and exporting to an FTP server
  * improved user experience when saving and exporting sites (no more white screen of boredom!)
