@@ -5,12 +5,12 @@ Wordpress plugin to convert a Wordpress site into statics files and optionnaly t
 
 <b>Unofficial 6.6.8 version modified by gaspard_bourgeois</b> in order to fix some bugs on windows environment.
 
-See official 6.6.7 on [Wordpress WP2Static Plugin](https://wordpress.org/plugins/static-html-output-plugin/) or access the latest development on the [Official Github](https://github.com/WP2Static/wp2static), a paid version by the way.
+See official 6.6.7 on [Wordpress WP2Static Plugin](https://wordpress.org/plugins/static-html-output-plugin/). Visit the latest development on the [Official Github](https://github.com/WP2Static/wp2static) or via the [Website](https://wp2static.com/), a paid version by the way.
 
 [Youtube tutorial - Free static website made with Wordpress hosted on Github]()
 
 ## Pre-required
-- Have wordpress installed, you can install it quickly with [Instant Wordpress](https://instantwp.com/)
+- Have wordpress installed
 
 ## Installation
 1. Clic here to download this package : [static-html-output-plugin-6.6.8-gb](https://github.com/Gaspard-Bourgeois/wp2static/packages/184871)
