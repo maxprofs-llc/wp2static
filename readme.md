@@ -1,5 +1,5 @@
 # WP2Static
-Wordpress plugin to convert a Wordpress site into statics files and optionnaly transfert them to github pages or other platform.
+Wordpress plugin to convert a Wordpress site into statics files and optionnaly transfer them to github pages or other platform to serve them.
 
 <b>Unofficial 6.6.8 version modified by gaspard_bourgeois</b> in order to fix some bugs on windows environment.
 
