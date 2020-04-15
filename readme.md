@@ -1,8 +1,20 @@
-=== WP2Static ===
-Unofficial 6.6.8 modified version by gaspard_bourgeois
-See official 6.6.7 on [Wordpress WP2Static Plugin](https://wordpress.org/plugins/static-html-output-plugin/)
-See the latest development on the [Official Github](https://github.com/WP2Static/wp2static), a paid version by the way
+# WP2Static
+Wordpress plugin to convert a Wordpress site into statics files and optionnaly transfert them to github pages or other platform.
 
+<b>Unofficial 6.6.8 version modified by gaspard_bourgeois</b> in order to fix some bugs on windows environment.
+
+See official 6.6.7 on [Wordpress WP2Static Plugin](https://wordpress.org/plugins/static-html-output-plugin/) or access the latest development on the [Official Github](https://github.com/WP2Static/wp2static), a paid version by the way.
+
+## Pre-required
+- Have wordpress installed, you can install it quickly with [Instant Wordpress](https://instantwp.com/) 
+
+## Installation
+1. Clic here to download this package : [static-html-output-plugin-6.6.8-gb](https://github.com/Gaspard-Bourgeois/wp2static/packages/184871)
+2. Extract the archive and Zip the folder named "package" (right clic > send to > compress folder)
+3. In Wordpress go to plugins > add > select the ZIP
+
+# Package Information
+=== WP2Static ===
 Contributors: leonstafford
 Tags: security, performance, static
 Requires at least: 3.2
