@@ -1,3 +1,5 @@
+[!readme_image](/readme.png)
+
 # WP2Static
 Wordpress plugin to convert a Wordpress site into statics files and optionnaly transfer them to github pages or other platform to serve them.
 
@@ -8,7 +10,7 @@ See official 6.6.7 on [Wordpress WP2Static Plugin](https://wordpress.org/plugins
 [Youtube tutorial - Free static website made with Wordpress hosted on Github]()
 
 ## Pre-required
-- Have wordpress installed, you can install it quickly with [Instant Wordpress](https://instantwp.com/) 
+- Have wordpress installed, you can install it quickly with [Instant Wordpress](https://instantwp.com/)
 
 ## Installation
 1. Clic here to download this package : [static-html-output-plugin-6.6.8-gb](https://github.com/Gaspard-Bourgeois/wp2static/packages/184871)
@@ -36,7 +38,7 @@ A static site closes all the doors that an out of date WordPress, theme or plugi
 
 A pre-generated static site will outperform caching plugins, allowing you to serve at local speeds to users around the world.
 
-[**https://wp2static.com**](https://wp2static.com/)
+[https://wp2static.com]
 
 Not compatible with WooCommerce or membership sites, but solutions like [Snipcart](https://snipcart.com) allow for eCommerce on static websites.
 
