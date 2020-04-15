@@ -1,2 +1,7 @@
 <?php
- namespace FtpClient; class FtpException extends \Exception {} 
+
+namespace FtpClient;
+
+class FtpException extends \Exception
+{
+}
