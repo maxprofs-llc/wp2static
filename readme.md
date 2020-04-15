@@ -5,6 +5,8 @@ Wordpress plugin to convert a Wordpress site into statics files and optionnaly t
 
 See official 6.6.7 on [Wordpress WP2Static Plugin](https://wordpress.org/plugins/static-html-output-plugin/) or access the latest development on the [Official Github](https://github.com/WP2Static/wp2static), a paid version by the way.
 
+[Youtube tutorial - Free static website made with Wordpress hosted on Github]()
+
 ## Pre-required
 - Have wordpress installed, you can install it quickly with [Instant Wordpress](https://instantwp.com/) 
 
