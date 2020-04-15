@@ -1,4 +1,4 @@
-[!readme_image](/readme.png)
+![readme_image](/readme.png)
 
 # WP2Static
 Wordpress plugin to convert a Wordpress site into statics files and optionnaly transfer them to github pages or other platform to serve them.
